@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yasmeen Toussi | Personal Website</title>
+  <meta
+    name="description"
+    content="Yasmeen Toussi is a UC Berkeley Computer Science student graduating in May 2026. Explore projects, coursework, experience, and interests."
+  />
+  <meta name="theme-color" content="#0e1324" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#hero" class="brand" aria-label="Go to top">
+        <span class="brand-mark">YT</span>
+        <span class="brand-text">Yasmeen Toussi</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#coursework">Coursework</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle theme">
+          <span id="themeIcon">☼</span>
+        </button>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-backdrop">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="orb orb-c"></div>
+        <div class="grid-lines"></div>
+      </div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">UC Berkeley • Computer Science • May 2026</p>
+          <h1>
+            Yasmeen
+            <span>Toussi</span>
+          </h1>
+          <p class="hero-subtitle">
+            Computer Science student building across web, security, AI, and interface design.
+          </p>
+          <p class="hero-description">
+            I’m a UC Berkeley student who likes exploring all sides of computer science—from secure systems
+            and machine architecture to user-facing products and interactive web experiences.
+            I’m especially drawn to building things that are thoughtful, useful, and visually polished.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See My Work</a>
+            <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+          </div>
+
+          <div class="hero-links">
+            <a href="mailto:yasmeentousi@gmail.com">yasmeentousi@gmail.com</a>
+            <a href="https://github.com/yasmeen004" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/yasmeen-toussi-9a7818322" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal">
+          <div class="hero-card glass">
+            <div class="portrait-shell">
+              <div class="portrait-placeholder">
+                <span>YT</span>
+              </div>
+              <p class="portrait-note">Photo can be added later</p>
+            </div>
+
+            <div class="hero-card-content">
+              <div class="mini-row">
+                <span class="mini-label">Based in</span>
+                <strong>Berkeley, CA</strong>
+              </div>
+              <div class="mini-row">
+                <span class="mini-label">Degree</span>
+                <strong>Computer Science B.A.</strong>
+              </div>
+              <div class="mini-row">
+                <span class="mini-label">Currently interested in</span>
+                <strong>Web, AI, Security, UI, Systems</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-row">
+            <article class="stat-card glass">
+              <span class="stat-number">4</span>
+              <span class="stat-label">Core projects featured</span>
+            </article>
+            <article class="stat-card glass">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Relevant CS / data courses</span>
+            </article>
+            <article class="stat-card glass">
+              <span class="stat-number">5</span>
+              <span class="stat-label">Years of work experience</span>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span></span>
+        <p>Scroll</p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">About</p>
+          <h2>Built like a resume, designed like a personal brand.</h2>
+          <p>
+            I wanted this site to feel polished enough for internships and jobs, but still personal.
+            I’m a Berkeley CS student graduating in May 2026, and I like working across both technical depth
+            and visual execution—whether that’s a security-heavy backend project, an interactive UI, or a more design-focused website refresh.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass about-card reveal tilt-card">
+            <h3>How I approach work</h3>
+            <p>
+              I like learning by building. I enjoy understanding how systems work under the hood,
+              then turning that understanding into something practical, clean, and usable.
+            </p>
+          </article>
+
+          <article class="glass about-card reveal tilt-card">
+            <h3>What I’m exploring</h3>
+            <p>
+              My background spans data structures, computer security, architecture, compilers,
+              AI, internet architecture, and user interfaces—so I’m open to many different paths in software.
+            </p>
+          </article>
+
+          <article class="glass about-card reveal tilt-card">
+            <h3>What I want next</h3>
+            <p>
+              I’m looking for internships and early-career opportunities where I can grow quickly,
+              contribute meaningfully, and keep becoming a stronger engineer and builder.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work</h2>
+          <p>
+            A mix of systems, product, design, and collaborative projects that reflect both technical range and creativity.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card glass reveal tilt-card featured-project">
+            <div class="project-badge">Open Project Club</div>
+            <h3>GIStis-League</h3>
+            <p>
+              Worked on an open project focused on Bay Area accessibility and location-based data visualization.
+              The public repo includes a frontend map experience that visualizes accessibility-index tracts and business-level data
+              across Berkeley, Oakland, and San Francisco, alongside a Python-based data / ML environment.
+            </p>
+            <ul class="project-points">
+              <li>Contributed through Berkeley’s Open Project setting</li>
+              <li>Worked around mapping, interface, and data-driven product ideas</li>
+              <li>Connected geographic data with a user-facing interactive experience</li>
+            </ul>
+            <div class="tech-stack">
+              <span>JavaScript</span>
+              <span>HTML/CSS</span>
+              <span>Mapbox</span>
+              <span>Python</span>
+              <span>pandas</span>
+              <span>scikit-learn</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/davidzhangberkeley/GIStis-League/tree/main" target="_blank" rel="noreferrer">GitHub Repo</a>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal tilt-card">
+            <div class="project-badge">Website Refresh</div>
+            <h3>Shop Ahoy Website Renewal</h3>
+            <p>
+              Refreshing the visual experience of the Shop Ahoy website, focusing on making the site feel more modern,
+              clearer, and more inviting for a nonprofit whose mission centers on helping homebound seniors and adults remain independent through weekly grocery support.
+            </p>
+            <ul class="project-points">
+              <li>Improving look and feel of an existing real-world nonprofit website</li>
+              <li>Thinking through usability, presentation, and trust</li>
+              <li>Designing for a mission-driven audience</li>
+            </ul>
+            <div class="tech-stack">
+              <span>Web Design</span>
+              <span>UI Thinking</span>
+              <span>HTML/CSS</span>
+              <span>Visual Refresh</span>
+            </div>
+            <div class="project-links">
+              <a href="https://shopahoy.net/" target="_blank" rel="noreferrer">Current Site</a>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal tilt-card">
+            <div class="project-badge">Security</div>
+            <h3>Secure File Sharing</h3>
+            <p>
+              Built a security engineering project in Go with per-file keys, encrypt-then-MAC protection,
+              authenticated versioned headers, secure sharing, and revocation logic for multi-user collaboration.
+            </p>
+            <ul class="project-points">
+              <li>Integrity and tamper detection in a hostile datastore model</li>
+              <li>Key rotation and signed grants for sharing and revocation</li>
+              <li>Validated across course-provided test scenarios</li>
+            </ul>
+            <div class="tech-stack">
+              <span>Go</span>
+              <span>Security</span>
+              <span>Cryptography</span>
+              <span>Testing</span>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal tilt-card">
+            <div class="project-badge">Product + AI</div>
+            <h3>Catter</h3>
+            <p>
+              Built a Tinder-style cat adoption matching app with a lifestyle questionnaire, preference-based ranking,
+              swipe interactions, and LLM-powered recommendations.
+            </p>
+            <ul class="project-points">
+              <li>Collaborated in a team of four using Git workflows</li>
+              <li>Translated Figma ideas into functioning product features</li>
+              <li>Combined frontend interaction with API-based recommendations</li>
+            </ul>
+            <div class="tech-stack">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>LLM API</span>
+              <span>Figma</span>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal tilt-card">
+            <div class="project-badge">Systems</div>
+            <h3>RISC-V CPU Design</h3>
+            <p>
+              Built a two-stage pipelined CPU in Logisim for a subset of RV32I instructions,
+              implementing ALU, register file, and control logic while debugging timing and correctness issues.
+            </p>
+            <div class="tech-stack">
+              <span>Computer Architecture</span>
+              <span>Logisim</span>
+              <span>RISC-V</span>
+            </div>
+          </article>
+
+          <article class="project-card glass reveal tilt-card">
+            <div class="project-badge">AI</div>
+            <h3>Pacman Reinforcement Learning</h3>
+            <p>
+              Implemented value iteration and Q-learning agents in Python for Gridworld, Pacman, and a robotic crawler,
+              tuning learning behavior to improve convergence and performance.
+            </p>
+            <div class="tech-stack">
+              <span>Python</span>
+              <span>Reinforcement Learning</span>
+              <span>AI</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Work and involvement</h2>
+          <p>
+            Experience that shows both hands-on responsibility and growing technical direction.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card glass">
+              <div class="timeline-top">
+                <h3>Open Project Club Contributor</h3>
+                <span>2026</span>
+              </div>
+              <p class="timeline-subtitle">GIStis-League • Berkeley</p>
+              <p>
+                Contributing to a collaborative open project centered on accessibility, mapping, and data-driven interface work.
+                Helped shape a project that connects geographic information with interactive web presentation.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card glass">
+              <div class="timeline-top">
+                <h3>Website Renewal Work</h3>
+                <span>Current</span>
+              </div>
+              <p class="timeline-subtitle">Shop Ahoy</p>
+              <p>
+                Renewing the Shop Ahoy website visually, with emphasis on improving presentation, clarity, and overall user impression for a nonprofit audience.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card glass">
+              <div class="timeline-top">
+                <h3>Part-Time Student Worker</h3>
+                <span>2021 – 2024</span>
+              </div>
+              <p class="timeline-subtitle">Water and Sanitation Billing and IT Department • Ventura, CA</p>
+              <p>
+                Supported billing and IT operations by maintaining digital records, preparing reports,
+                tracking site traffic with Google Analytics, and helping resolve account and workflow issues.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="coursework">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Coursework</p>
+          <h2>What I’ve studied</h2>
+          <p>
+            A snapshot of classes that shaped the projects and interests on this site.
+          </p>
+        </div>
+
+        <div class="course-layout">
+          <div class="glass course-panel reveal">
+            <h3>Core CS</h3>
+            <div class="pill-list">
+              <span>Data Structures & Algorithms</span>
+              <span>Computer Security</span>
+              <span>Computer Architecture</span>
+              <span>Programming Languages & Compilers</span>
+              <span>Artificial Intelligence</span>
+              <span>Internet Architecture</span>
+              <span>User Interfaces</span>
+              <span>Discrete Mathematics</span>
+              <span>Probability Theory</span>
+              <span>SICP / CS 61A</span>
+            </div>
+          </div>
+
+          <div class="glass course-panel reveal">
+            <h3>Design + Context</h3>
+            <div class="pill-list">
+              <span>Human Contexts and Ethics of Data</span>
+              <span>Social Psychology</span>
+              <span>Foundations of Data Science</span>
+              <span>Topics in Data Science</span>
+              <span>Sound Design for Performance</span>
+            </div>
+          </div>
+
+          <div class="glass course-panel reveal">
+            <h3>What that means in practice</h3>
+            <p>
+              I’ve built a foundation that lets me move between systems work, security, machine-level thinking,
+              interface design, and more user-centered software. I’m not boxed into one niche, which is something I really like about where I am right now.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="interests">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Beyond coding</p>
+          <h2>Interests and personality</h2>
+          <p>
+            A personal site should feel personal—so here are a few things I’m into outside of class and projects.
+          </p>
+        </div>
+
+        <div class="interest-grid">
+          <article class="glass interest-card reveal tilt-card">
+            <div class="interest-icon">🏀</div>
+            <h3>Basketball</h3>
+            <p>I love sports energy, movement, and competition.</p>
+          </article>
+
+          <article class="glass interest-card reveal tilt-card">
+            <div class="interest-icon">🏈</div>
+            <h3>Football</h3>
+            <p>Another sport I genuinely enjoy following and watching.</p>
+          </article>
+
+          <article class="glass interest-card reveal tilt-card">
+            <div class="interest-icon">🏊</div>
+            <h3>Swimming</h3>
+            <p>A favorite way to reset and stay active.</p>
+          </article>
+
+          <article class="glass interest-card reveal tilt-card">
+            <div class="interest-icon">🎸</div>
+            <h3>Guitar</h3>
+            <p>Music is a big part of what keeps me creative.</p>
+          </article>
+
+          <article class="glass interest-card reveal tilt-card">
+            <div class="interest-icon">🎹</div>
+            <h3>Piano</h3>
+            <p>I like musical expression just as much as technical problem-solving.</p>
+          </article>
+
+          <article class="glass interest-card reveal tilt-card">
+            <div class="interest-icon">🎧</div>
+            <h3>Music</h3>
+            <p>Music and design inspiration both influence how I build.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-shell glass reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect.</h2>
+          <p>
+            I’m building this site to support internship and job applications, and I’m always happy to connect
+            about opportunities, projects, or anything interesting in tech.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:yasmeentousi@gmail.com">Email Me</a>
+            <a class="btn btn-secondary" href="https://github.com/yasmeen004" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn-secondary" href="https://linkedin.com/in/yasmeen-toussi-9a7818322" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Yasmeen Toussi</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
