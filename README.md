@@ -46,6 +46,4 @@ Once published with GitHub Pages, the website is available at:
 - GitHub: [yasmeen004](https://github.com/yasmeen004)
 - LinkedIn: [yasmeen-toussi-9a7818322](https://linkedin.com/in/yasmeen-toussi-9a7818322)
 
-## Local preview
 
-Clone the repository and open `index.html` in a browser. No build step is required.
