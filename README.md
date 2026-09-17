@@ -1,42 +1,51 @@
-# Yasmeen Toussi — Personal Website
+# Yasmeen Toussi — Technical Portfolio
 
-This is my personal website, built to showcase my background, projects, coursework, interests, and experience as a Computer Science student at UC Berkeley.
+This is my personal website and portfolio, built to show the work I have done across humanoid robotics, artificial intelligence, IT support, machine learning, security, web development, and UI/UX research.
 
-## About
+## About me
 
-I’m Yasmeen Toussi, a UC Berkeley Computer Science student graduating in May 2026. This site serves as both a personal website and a portfolio-style extension of my resume for internships, jobs, and professional opportunities.
+I’m Yasmeen Toussi, a UC Berkeley Computer Science graduate based in Moorpark, California. I enjoy learning how systems work, troubleshooting what is getting in the way, and building solutions that are useful to real people.
+
+My experience includes hands-on robotics and AI operations at Figure AI, UI/UX design and research with CAVIAIR/Neoboard, public-sector IT support for the County of Ventura, and web design and development for ShopAhoy.
 
 ## Featured on the site
 
-- A personal introduction and background
+- A professional introduction and photo story from UC Berkeley
+- Work experience across robotics, AI, IT, product design, and web development
 - Selected technical and collaborative projects
-- Coursework and academic interests
-- Experience and involvement
-- Personal interests outside of school and coding
+- Programming, AI/ML, robotics, IT, and design skills
+- Education, relevant coursework, and languages
+- Downloadable resume and direct contact links
 
-## Projects highlighted
+## Selected projects
 
-- **GIStis-League** — Open Project Club work involving accessibility, mapping, and data-driven interface ideas
-- **Shop Ahoy Website Renewal** — visual refresh and website improvement work
-- **Secure File Sharing** — Go-based secure file storage and sharing project
-- **Catter** — cat adoption matching app with recommendation features
-- **RISC-V CPU Design** — CPU design in Logisim
-- **Pacman Reinforcement Learning** — AI agents using value iteration and Q-learning
+- **GIStice League** — environmental-justice analysis using Python, geospatial data, linear regression, five-fold cross-validation, Mapbox, and QGIS
+- **Catter** — a cat-adoption matching application built with React, Node.js, an LLM API, Figma, and Git
+- **Secure File Sharing** — a Go-based encrypted file-storage and sharing system with secure access controls
+- **ShopAhoy Website Renewal** — a client-facing website redesign and development project using HTML, CSS, PHP, Figma, and GitHub Pages
+- **RISC-V CPU Design** — a functional processor designed and tested in Logisim
+- **Pacman Reinforcement Learning** — intelligent agents built with value iteration and Q-learning
 
 ## Built with
 
-- HTML
-- CSS
-- JavaScript
+- Semantic HTML
+- Modern CSS
+- Vanilla JavaScript
+- Responsive, accessible layouts
+- Dark and light themes
 
 ## Live site
 
-Once published, this website is available at:
+Once published with GitHub Pages, the website is available at:
 
-`https://yasmeen004.github.io/`
+[yasmeen004.github.io/personal-website](https://yasmeen004.github.io/personal-website/)
 
 ## Contact
 
-- Email: yasmeentousi@gmail.com
+- Email: [yasmeentousi@gmail.com](mailto:yasmeentousi@gmail.com)
 - GitHub: [yasmeen004](https://github.com/yasmeen004)
 - LinkedIn: [yasmeen-toussi-9a7818322](https://linkedin.com/in/yasmeen-toussi-9a7818322)
+
+## Local preview
+
+Clone the repository and open `index.html` in a browser. No build step is required.
